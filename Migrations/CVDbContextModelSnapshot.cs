@@ -37,7 +37,6 @@ namespace ApiCV.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("Logo")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Nom")
@@ -64,7 +63,7 @@ namespace ApiCV.Migrations
                     b.Property<DateTime>("DateDebut")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime>("DateFin")
+                    b.Property<DateTime?>("DateFin")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Diplome")
@@ -96,7 +95,7 @@ namespace ApiCV.Migrations
                     b.Property<DateTime>("DateDebut")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime>("DateFin")
+                    b.Property<DateTime?>("DateFin")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Description")
@@ -108,6 +107,9 @@ namespace ApiCV.Migrations
 
                     b.Property<string>("Nom_Entreprise")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Poste")
                         .HasColumnType("text");
 
                     b.HasKey("Id_Experience");
@@ -140,7 +142,7 @@ namespace ApiCV.Migrations
                     b.Property<string>("Photo")
                         .HasColumnType("text");
 
-                    b.Property<string>("Profil")
+                    b.Property<string>("Prenom")
                         .IsRequired()
                         .HasColumnType("text");
 

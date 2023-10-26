@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\catar\\Documents\\Code\\CV\\ApiCV\\ApiCV.csproj": {}
+    "C:\\Users\\catar\\Documents\\Code\\CV\\CVBlazorProjectAPI\\ApiCV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\catar\\Documents\\Code\\CV\\ApiCV\\ApiCV.csproj": {
+    "C:\\Users\\catar\\Documents\\Code\\CV\\CVBlazorProjectAPI\\ApiCV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catar\\Documents\\Code\\CV\\ApiCV\\ApiCV.csproj",
+        "projectUniqueName": "C:\\Users\\catar\\Documents\\Code\\CV\\CVBlazorProjectAPI\\ApiCV.csproj",
         "projectName": "ApiCV",
-        "projectPath": "C:\\Users\\catar\\Documents\\Code\\CV\\ApiCV\\ApiCV.csproj",
+        "projectPath": "C:\\Users\\catar\\Documents\\Code\\CV\\CVBlazorProjectAPI\\ApiCV.csproj",
         "packagesPath": "C:\\Users\\catar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catar\\Documents\\Code\\CV\\ApiCV\\obj\\",
+        "outputPath": "C:\\Users\\catar\\Documents\\Code\\CV\\CVBlazorProjectAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

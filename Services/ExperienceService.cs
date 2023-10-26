@@ -18,6 +18,7 @@ namespace CVServices
             ExperienceEntity experience = new ExperienceEntity
             {
                 Nom_Entreprise = experienceModel.Nom_Entreprise,
+                Poste = experienceModel.Poste,
                 DateDebut = experienceModel.DateDebut,
                 DateFin = experienceModel.DateFin,
                 Description = experienceModel.Description,
@@ -30,6 +31,7 @@ namespace CVServices
             {
                 Id_Experience = experience.Id_Experience,
                 Nom_Entreprise = experience.Nom_Entreprise,
+                Poste = experience.Poste,
                 DateDebut = experience.DateDebut,
                 DateFin = experience.DateFin,
                 Description = experience.Description,
@@ -50,6 +52,7 @@ namespace CVServices
                 {
                     Id_Experience = e.Id_Experience,
                     Nom_Entreprise = e.Nom_Entreprise,
+                    Poste = e.Poste,
                     DateDebut = e.DateDebut,
                     DateFin = e.DateFin,
                     Description = e.Description,
@@ -70,6 +73,11 @@ namespace CVServices
             if (experience.Nom_Entreprise != null)
             {
                 experienceEntity.Nom_Entreprise = experience.Nom_Entreprise;
+            }
+
+            if (experience.Poste != null)
+            {
+                experienceEntity.Poste = experience.Poste;
             }
 
             if (experience?.DateDebut != null)

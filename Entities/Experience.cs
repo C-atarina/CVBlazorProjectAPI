@@ -10,6 +10,7 @@ namespace CV.Entities
         public int Id_Experience { get; set; }
         [Required]
         public required string Nom_Entreprise { get; set; }
+        public string? Poste { get; set; }
         [Required]
         public DateTime DateDebut { get; set; }
         public DateTime? DateFin { get; set; }

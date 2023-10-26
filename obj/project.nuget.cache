@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4QeAwDcsqng1DFhMyOC5kfqyEtFn0VLqKOXqt5TF0vkHgjNaHFpNo+VxRiejwLQeqqvLWQJAuNAgR5IPfQ8xPg==",
+  "dgSpecHash": "2eYdf5khGHzMMYGx7sSpAAEzLj4Q+mqAkxUUkI293DF/QJ0QNwaxG2FE52LFBFVBnu+MJsagB5jStFEcCgX/jQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\catar\\Documents\\Code\\CV\\ApiCV\\ApiCV.csproj",
+  "projectFilePath": "C:\\Users\\catar\\Documents\\Code\\CV\\CVBlazorProjectAPI\\ApiCV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\catar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\catar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",

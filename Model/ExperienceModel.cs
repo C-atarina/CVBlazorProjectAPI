@@ -4,6 +4,7 @@ namespace CV.Models
     {
         public int? Id_Experience { get; set; }
         public required string Nom_Entreprise { get; set; }
+        public string? Poste { get; set; }
         public DateTime DateDebut { get; set; }
         public DateTime? DateFin { get; set; }
         public string? Description { get; set; }
