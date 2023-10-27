@@ -31,7 +31,7 @@ namespace CVServices
                 Id_Competences = competence.Id_Competences,
                 Nom = competence.Nom,
                 Logo = competence.Logo,
-                Id_TypeCompetences = competence.Id_Competences,
+                Id_TypeCompetences = competence.Id_TypeCompetences,
                 Id_Profil = competence.Id_Profil
             };
 

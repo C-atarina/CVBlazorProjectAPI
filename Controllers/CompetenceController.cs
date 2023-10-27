@@ -57,7 +57,7 @@ public class CompetenceController : ControllerBase
         return Ok("Competence Updated");
     }
 
-    [HttpDelete("delete/{:id_competetence}")]
+    [HttpDelete("delete/{id_competetence}")]
     public IActionResult DeleteCompetence(int id_competetence)
     {
         _competenceService.DeleteCompetence(id_competetence);

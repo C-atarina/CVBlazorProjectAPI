@@ -84,3 +84,5 @@ C:\Users\catar\Documents\Code\CV\CVBlazorProjectAPI\obj\Debug\net7.0\refint\ApiC
 C:\Users\catar\Documents\Code\CV\CVBlazorProjectAPI\obj\Debug\net7.0\ApiCV.pdb
 C:\Users\catar\Documents\Code\CV\CVBlazorProjectAPI\obj\Debug\net7.0\ApiCV.genruntimeconfig.cache
 C:\Users\catar\Documents\Code\CV\CVBlazorProjectAPI\obj\Debug\net7.0\ref\ApiCV.dll
+C:\Users\catar\Documents\Code\CV\CVBlazorProjectAPI\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\catar\Documents\Code\CV\CVBlazorProjectAPI\bin\Debug\net7.0\itextsharp.dll

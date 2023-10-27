@@ -28,6 +28,7 @@ builder.Services.AddScoped<CompetenceService>();
 builder.Services.AddScoped<EducationService>();
 builder.Services.AddScoped<ExperienceService>();
 builder.Services.AddScoped<TypeCompetenceService>();
+builder.Services.AddScoped<PdfService>();
 
 var app = builder.Build();
 
